@@ -6,6 +6,7 @@ using namespace std;
 int main() {
 
     int N;
+    cout << "Ingrese la cantidad de palabras: ";
     cin >> N;
 
     string resultado[N];
@@ -13,6 +14,7 @@ int main() {
     for (int a = 0; a < N; a++) {
 
         string palabra;
+        cout << "Ingrese la palabra " << a + 1 << ": ";
         cin >> palabra;
 
         bool palindromo = true;
@@ -30,8 +32,10 @@ int main() {
             resultado[a] = "P";
         }else {
             resultado[a] = "NP";
+        }
     }
-}
+    
+    cout << "\nResultados:\n";
     for (int k = 0; k < N; k++) {
         cout << resultado[k] << endl;
     }
