@@ -29,6 +29,9 @@ int main() {
             j++;
         }
     }
-    
+
+    cout << "\nLa linea ordenada es:\n";
+    cout << texto;
+
     return 0;
 }
