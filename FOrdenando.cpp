@@ -21,6 +21,14 @@ int main() {
     sort(letras.begin(), letras.end());
 
     int j = 0;
+
+    for (int i = 0; i < texto.length(); i++) {
+
+        if (texto[i] >= 'a' && texto[i] <= 'z') {
+            texto[i] = letras[j];
+            j++;
+        }
+    }
     
     return 0;
 }
