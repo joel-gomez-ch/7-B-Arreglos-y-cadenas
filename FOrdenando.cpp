@@ -10,6 +10,13 @@ int main() {
     string letras = "";
 
     getline(cin, texto);
+
+    for (int i = 0; i < texto.length(); i++) {
+
+        if (texto[i] >= 'a' && texto[i] <= 'z') {
+            letras += texto[i];
+        }
+    }
     
     return 0;
 }
