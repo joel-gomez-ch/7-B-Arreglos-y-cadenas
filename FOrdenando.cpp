@@ -9,5 +9,7 @@ int main() {
     string texto;
     string letras = "";
 
+    getline(cin, texto);
+    
     return 0;
 }
