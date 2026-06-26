@@ -17,6 +17,10 @@ int main() {
             letras += texto[i];
         }
     }
+
+    sort(letras.begin(), letras.end());
+
+    int j = 0;
     
     return 0;
 }
