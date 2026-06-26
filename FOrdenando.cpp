@@ -9,6 +9,7 @@ int main() {
     string texto;
     string letras = "";
 
+    cout << "Ingrese una linea de texto: ";
     getline(cin, texto);
 
     for (int i = 0; i < texto.length(); i++) {
